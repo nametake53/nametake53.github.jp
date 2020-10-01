@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>名取裕太ポートフォリオ</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+<script type="text/javascript">
+        $(document).ready(function(){
+            $('.slider').bxSlider({
+                auto: true,
+                pause: 5000,
+            });
+        });
+</script>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="logo">
+          <img src="image/sns-icon200620.png" class="logo-image" alt="なめたけアイコン">
+        </div>
+        <div class="menu">
+          <ul class="menu-list">
+            <li><a href="#">はじめに</a></li>
+            <li><a href="#profile-h">自己紹介</a></li>
+            <li><a href="#motivation-h">志望動機</a></li>
+            <li><a href="#think-h">考え方</a></li>
+            <li><a href="#performance-h">実績</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <div class="body-wrapper">
+
+
+      <div class="hello">
+          <div class="contents-myname">
+          <h1 class="title">はじめまして</h1>
+          <p>この度はお時間いただきありがとうございます</p>
+          <p><span class="large">名取 裕太</span> (なとり ゆうた)と申します</p>
+          <p>これからよろしくお願いいたします</p>
+        </div>
+        <div class="my-illust">
+          <img class="me"src="myimg.jpg" alt="自画像">
+        </div>
+      </div>
+
+
+      <div class="profile">
+        <h1 id="profile-h" class="contents">自己紹介</h1>
+        <p>住所:大阪府豊中市</p>
+        <p>生年月日:1993年 5月 3日 (27歳)</p>
+        <p>趣味:サッカー、漫画、動画作成、プログラミング(new)</p>
+        <p>好きな食べ物:オムライス</p>
+      </div>
+      <div class="motivation">
+        <h1 id="motivation-h" class="contents">志望動機</h1>
+        <p>100円均一メーカーのインハウスデザイナーをしていました。
+        <br>企画からはじまり、商品本体のデザインからパッケージや販促物まで幅広く携われます。
+        <br>今回はパートナーの出産を控え、また世界情勢的にも在宅での仕事をできるよう
+        <br>仕事環境を整えたいと考え、転職活動に踏み切りました。</p>
+      </div>
+
+
+      <div class="think">
+        <h1 id="think-h" class="contents">考え方</h1>
+        <h3><仕事では以下のことを定期的に思い返して行動しています></h3>
+        <h4>1.ゴールはなにか？
+        <br>2.ベターな手段はなにか？
+        <br>3.主体的に動けているか？
+        <br>4.仲間を頼り、助ける
+        <br>5.子どもに誇れるか
+      </h4>
+
+      </div>
+      <div class="performance">
+        <h1 id="performance-h" class="contents">実績</h1>
+        <div class="performance-left">
+          <p>前職では100円均一メーカーのインハウスデザイナーとして3年在籍していました。</p>
+          <p>商品そのものや、パッケージ、店頭ポップと幅広く携わり
+            <br>最後の１年はクリスマスデザインのチームリーダーとして企画全体をまとめました。</p>
+            <h3><企画デザインの内容(季節もの:クリスマス)></h3>
+          <p>8月
+            <br>昨年の売上データをもとに、来年の傾向を予測
+            <br>ネット調査</p>
+          <p>9月
+            <br>連続して並ぶハロウィン企画と情報をすり合わせ
+            <br>流行や商品素材などコスト削減のために合わせられるところは合わせていく
+            <br>同時に今年の店頭用ポップや広告を作成</p>
+          <p>10月
+            <br>初回商談(今年のコンセプトすり合わせ)
+            <br>商談に向けイメージボードなど商談用資料を作成していく</p>
+          <p>11月
+            <br>2回目商談 & 店舗市場調査
+            <br>今年の市場を各店舗(同社、競合他社)を実際に見に行き
+            <br>来年のコンセプトを再確認する(方向修正があればココで)
+            <br>初回コンセプトをもとに全体の統一パッケージや
+            <br>クライアントから要望を受けた商品を工場に依頼しサンプルとして見ていただく
+            <br>こちらから提案するものは既存商品を作り変えてイメージをすり合わせる</p>
+          <p>12月
+            <br>3回目商談 & クリスマス前後の動向チェック
+            <br>クライアントからの要望商品はほぼ確定し、パッケージを作成していく
+            <br>こちらから提案する新商品を実際のサンプルにして見ていただく
+            <br>今年のクリスマス前後の動向を記録し来年度の企画に保存しておく
+            <br>販売商品のラインナップが決まる</p>
+          <p>1月
+            <br>販売が決まったアイテムのパッケージを展開していく
+            <br>商品が多いためパッケージのイメージをまとめてチェックしていただく
+            <br>同時に自社とクライアントとの共同アプリに商品情報を登録していく</p>
+          <p>2~4月
+            <br>商品登録のための事務作業をしつつ通年商品のデザイン業務</p>
+          <p>5~7月
+            <br>通年商品をデザイン
+            <br>来季への資料まとめ</p>
+        </div>
+
+        <div class="performance-right">
+          <p class="coments">【商品紹介ポップ(撮影とデザイン)】</p>
+          <div class="slider">
+          <img src="image/portfolio_1.png" width="500" height="300" alt="">
+          <img src="image/portfolio_2.png" width="500" height="300" alt="">
+          <img src="image/portfolio_3.png" width="500" height="300" alt="">
+          </div>
+          <p class="coments">【クリスマス統一パッケージ案】</p>
+          <div class="slider">
+          <img src="image/package_1.png" width="500" height="350" alt="">
+          <img src="image/package_2.png" width="500" height="350" alt="">
+          <img src="image/package_3.png" width="500" height="350" alt="">
+          <img src="image/package_4.png" width="500" height="350" alt="">
+          <img src="image/package_5.png" width="500" height="350" alt="">
+          <img src="image/package_6.png" width="500" height="350" alt="">
+          </div>
+          <p class="coments">【パッケージ展開】</p>
+          <div class="slider">
+          <img src="image/package_index_1.png" width="500" height="350" alt="">
+          <img src="image/package_index_2.png" width="500" height="350" alt="">
+          <img src="image/package_index_3.png" width="500" height="350" alt="">
+          <img src="image/package_index_4.png" width="500" height="350" alt="">
+          <img src="image/package_index_5.png" width="500" height="350" alt="">
+          <img src="image/package_index_6.png" width="500" height="350" alt="">
+          <img src="image/package_index_7.png" width="500" height="350" alt="">
+          <img src="image/package_index_8.png" width="500" height="350" alt="">
+          </div>
+          <p class="coments">【工場へのサンプル作成指示書】</p>
+          <div class="slider">
+          <img src="image/sample_1.png" width="500" height="350" alt="">
+          <img src="image/sample_2.png" width="500" height="350" alt="">
+          <img src="image/sample_3.png" width="500" height="350" alt="">
+          </div>
+          <p class="coments">【その他(パッケージ、資料作成、社内まんが)】</p>
+          <div class="slider">
+          <img src="image/etc_1.png" width="500" height="350" alt="">
+          <img src="image/etc_2.png" width="500" height="350" alt="">
+          <img src="image/etc_3.png" width="500" height="350" alt="">
+          </div>
+        </div>
+
+      </div>
+      <div class="float-clear"></div>
+
+
+
+        <footer>
+          <h3>最後まで閲覧頂きありがとうございます
+          <br>御社でのお仕事に関われれば幸いです</h3>
+
+        </footer>
+
+      </div>
+
+
+    </div>
+  </body>
+</html>
